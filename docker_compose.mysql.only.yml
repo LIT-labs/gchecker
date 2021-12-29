@@ -1,0 +1,22 @@
+version: "3.3"
+
+services:
+  mysqldb:
+    image: mysql
+    container_name: gchecker-dev-db
+    restart: unless-stopped
+    environment:
+      - MYSQL_DATABASE=testdb
+      - MYSQL_ROOT_PASSWORD=test
+      - TZ=Europe/Berlin
+    volumes:
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+      - db-config-dev:/etc/mysql
+      - db-data-dev:/var/lib/mysql
+    ports:
+      - 3307:3306
+
+volumes:
+  db-config-dev: null
+  db-data-dev: null

@@ -1,0 +1,41 @@
+{
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "eslint.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {},
+  "files.insertFinalNewline": true,
+  "search.exclude": {
+    ".git": true,
+    ".build": true,
+    "**/.DS_Store": true,
+    "**/.vscode": true,
+    "**/coverage": true,
+    "**/node_modules": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "cSpell.words": [
+    "hadolint",
+    "mailhog",
+    "nuxt"
+  ],
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "dev db",
+      "database": "testdb",
+      "username": "root",
+      "password": "test"
+    }
+  ]
+}

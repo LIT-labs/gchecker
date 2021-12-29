@@ -1,0 +1,13 @@
+[
+  {
+    "header": "Wähle eine Kategorie oder erstelle eine neue"
+  },
+  {
+    "text": "Mitarbeiter",
+    "color": "blue"
+  },
+  {
+    "text": "Besucher",
+    "color": "green"
+  }
+]
