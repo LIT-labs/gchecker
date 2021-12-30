@@ -1,4 +1,4 @@
-# Node.js (REST API) + Vue.js/Nuxt.js (Frontend/Backend) + MySQL Vaccination Status Manager
+# Node.js (REST API) + Vue.js + MySQL Vaccination Status Manager
 
 The German government requires companies to document the 3-G status (vaccinated, recovered or tested).
 
