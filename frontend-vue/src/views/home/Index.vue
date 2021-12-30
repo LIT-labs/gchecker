@@ -23,7 +23,7 @@
             color="accent"
             to="/new"
           >
-            Neuen g-checker erstellen
+            Neuen gchecker erstellen
           </v-btn>
           <v-btn
             v-if="loggedIn"
