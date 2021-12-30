@@ -68,7 +68,7 @@
           name: 'Alpha 1.0',
           shortname: 'a1.0',
           features: [
-            'Individuellen g-checker erstellen',
+            'Individuellen gchecker erstellen',
             'User-Management',
             'Personen hinzufügen/enfernen/editieren',
             'Personen checken/erneut checken',

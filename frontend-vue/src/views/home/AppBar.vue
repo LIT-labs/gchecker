@@ -16,7 +16,7 @@
         width="100%"
         @click="toStart"
       />
-      <base-heading title="g-checker" />
+      <base-heading title="gchecker" />
       <v-spacer />
       <v-btn
         v-if="showLogoutBtn"

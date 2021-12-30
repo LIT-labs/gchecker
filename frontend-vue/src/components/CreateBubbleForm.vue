@@ -5,7 +5,7 @@
         <v-text-field
           v-model="bubbleName"
           :rules="bubbleNameRules"
-          label="Gib deinem g-checker einen Namen"
+          label="Gib deinem gchecker einen Namen"
           required
           @input="onBubbleNameChange"
         />
@@ -55,7 +55,7 @@
           v => !!v || 'Du brauchst einen Namen!',
           v => this.nameAvailable || 'Dieser Name ist bereits vergeben! Wähle doch bitte einen anderen.',
         ],
-        bubbleNameRules: [v => !!v || 'Dein g-checker brauch einen Namen!'],
+        bubbleNameRules: [v => !!v || 'Dein gchecker brauch einen Namen!'],
         emailRules: [
           v => !!v || 'Eine E-mail ist notwendig',
           v =>

@@ -3,11 +3,11 @@
     <v-card>
       <v-card-title class="">
         <h1 class="text-center justify-center py-6 font-weight-bold text-h2 basil--text">
-          Neuen g-checker erstellen:
+          Neuen gchecker erstellen:
         </h1>
       </v-card-title>
       <v-card-subtitle class="text-h5">
-        Wir brauchen ein paar Infos von dir um deinen eigenen g-checker erstellen zu können!
+        Wir brauchen ein paar Infos von dir um deinen eigenen gchecker erstellen zu können!
       </v-card-subtitle>
       <p class="red--text pl-8">
         Achtung: Aktuell ist diese eine beta-version. Benutzung auf eigene Gefahr. Feedback, Infos, Bugs an

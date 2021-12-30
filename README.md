@@ -1,5 +1,19 @@
 # gchecker - Vaccination Status Manager
 
+<p align="center">
+  <img src="frontend-vue/src/assets/gchecker-logo.svg" height=300px alt="gchecker" />
+</p>
+<p align="center">
+  <a href="https://matrix.to/#/#gchecker:matrix.org" target="_blank">
+    <img src="https://img.shields.io/matrix/gchecker:matrix.org" alt="martix chat" />
+  </a>
+</p>
+
+-------------------
+
+
+
+
 The German government requires companies to document the 3-G status (vaccinated,
 recovered or tested). gchecker is intended to provide digital assistance.
 
@@ -27,7 +41,7 @@ it won't detect any changes unless uncomment volumes.
 To enable live change for the API, uncomment following lines in
 `docker-compose.yml`
 
-```text
+```yaml
   volumes:
     - ./api:/srv
 ```
@@ -42,7 +56,7 @@ to the limitation of setting development environment of Vue.js in sub directory.
 If you want to have Hot Reload feature, then you should launch the Frontend
 separately by `npm run serve`.
 
-```bash
+```sh
 cd frontend-vue
 npm run serve
 ```
