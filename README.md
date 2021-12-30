@@ -1,5 +1,9 @@
 # gchecker - Vaccination Status Manager
 
+ <p align="center">
+    <img src="frontend-vue/src/assets/logo_small_icon_only.png" alt="logo" height=250px>
+ </p>
+
 The German government requires companies to document the 3-G status (vaccinated,
 recovered or tested). gchecker is intended to provide digital assistance.
 
