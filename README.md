@@ -27,7 +27,7 @@ it won't detect any changes unless uncomment volumes.
 To enable live change for the API, uncomment following lines in
 `docker-compose.yml`
 
-```text
+```yaml
   volumes:
     - ./api:/srv
 ```
@@ -42,7 +42,7 @@ to the limitation of setting development environment of Vue.js in sub directory.
 If you want to have Hot Reload feature, then you should launch the Frontend
 separately by `npm run serve`.
 
-```bash
+```sh
 cd frontend-vue
 npm run serve
 ```
